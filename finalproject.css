@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 20px;
+    text-align: center;
+  }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #588FB4;
+}
+
+h1 {color:#42A36F;
+text-align: center;
+}
+
+h3 {color:#42A36F;
+text-align: left;
+font-size: 24px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 3px solid black;
+    table-layout: fixed;
+}
+
+.center {text-align: center; }
+
+p {
+    font-size: 20px;
+}
