@@ -24,11 +24,21 @@ li a:hover {
     background-color: #588FB4;
 }
 
+ a:hover {
+    background-color: #588FB4;
+}
+
 h1 {color:#42A36F;
 text-align: center;
+margin-left:5px;
 }
 
 h3 {color:#42A36F;
+text-align: left;
+font-size: 24px;
+}
+
+h2 {color:#42A36F;
 text-align: left;
 font-size: 24px;
 }
@@ -46,4 +56,11 @@ table, th, td {
 
 p {
     font-size: 20px;
+    margin-left:10px;
+}
+
+body { background:"b2.jpg";}
+
+a {
+    color: #42A36F;
 }
