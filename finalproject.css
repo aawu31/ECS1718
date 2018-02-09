@@ -6,7 +6,7 @@ ul {
     background-color: #333;
     font-size: 20px;
     text-align: center;
-  }
+}
 
 li {
     float: left;
@@ -24,42 +24,57 @@ li a:hover {
     background-color: #588FB4;
 }
 
- a:hover {
+a:hover {
     background-color: #588FB4;
 }
 
-h1 {color:#42A36F;
-text-align: center;
-margin-left:5px;
+h1 {
+    color: #42A36F;
+    font-size:40px;
+    font-family:"Verdana";
+    text-align: center;
+    margin-left: 5px;
 }
 
-h3 {color:#42A36F;
-text-align: left;
-font-size: 24px;
+h3 {
+    color: #42A36F;
+    text-align: left;
+    font-size: 24px;
+    font-family:"Georgia";
 }
 
-h2 {color:#42A36F;
-text-align: left;
-font-size: 24px;
+h2 {
+    color: #42A36F;
+    text-align: left;
+    font-size: 24px;
 }
 
 table {
     border-collapse: collapse;
+    margin-left: 10px;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 3px solid black;
     table-layout: fixed;
 }
 
-.center {text-align: center; }
+.center {
+    text-align: center;
+}
 
 p {
     font-size: 20px;
-    margin-left:10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-family:Helvetica;
 }
 
-body { background:"b2.jpg";}
+body {
+    background-image: url (b3.jpg);
+}
 
 a {
     color: #42A36F;
